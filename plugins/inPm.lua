@@ -113,12 +113,12 @@ if to == 'user' or service or is_admin1(msg) and to == "chat" or to == "channel"
 		channel_invite(channel, user, ok_cb, false)
 	elseif matches[2]:lower() == 'persian' and matches[3]:lower() == 'support' then
 		savelog(msg.to.id, name_log.." ["..msg.from.id.."] tried to join Persian support")
-		local target = 1031459611
+		local target = 133538895
 		local long_id = data[tostring(target)]['long_id']
 		if is_banned(msg.from.id, tostring(target)) then
 			return 'You are banned.'
 		end
-		if data[tostring(target)]['settings']['lock_member'] == 'yes' and not is_owner2(msg.from.id, '36088606') then
+		if data[tostring(target)]['settings']['lock_member'] == 'yes' and not is_owner2(msg.from.id, '146191459') then
 			return 'Group is private.'
 		end
 		if is_admin1(msg) then
