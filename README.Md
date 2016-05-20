@@ -1,4 +1,4 @@
-# [teleking](https;//telegram.me/holyscrolls) > [GitHub](https://GitHub.com/holyscroll/Teleking_Team) | [Site](soon) |  [Channel](https://telegram.me/teleking_team)
+# [teleking](https;//telegram.me/holyscrolls) > [GitHub](https://GitHub.com/holyscroll/Teleking-Team) | [Site](soon) |  [Channel](https://telegram.me/teleking_team)
 * * *
 *New Bot For Manage Your SuperGroups.
 
@@ -9,13 +9,13 @@
 # آموزش نصب سروس
 1. کد زیر را در ترمینال وارد کنید.
 
-sudo apt-get update; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev autoconf -y --force-yes && git clone https://github.com/holyscroll/Teleking_Team.git && cd Teleking_Team && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev autoconf -y --force-yes && git clone https://github.com/holyscroll/Teleking-Team.git && cd Teleking_Team && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 
 2.بعد از چند دقیقه ربات از شما شماره ای میگیره که روبات روی اون نصب شه...
 بعد از وارد کردن شماره و وارد کردن کد در صورتی ربات در اکانت مورد نظر نصب شد ترمینال را ببندید و ترمینال جدید باز کنید
 سپس دستور زیر را بزنید...
 
-cd Teleking_Team 
+cd Teleking-Team 
 
 دقت کنید که در دستور بالا حرف سی و پی رو کپتال بنویسید که اررور نده
 بعد این کد رو بزنید
@@ -34,7 +34,7 @@ tmux new-session -s script "bash Teleking_Team -t"
 
 اول در ترمینال دستور زیر را تایپ کنید
 
-cd Teleking_Team
+cd Teleking-Team
 
 سپس این دستور را وارد کنید.
 
@@ -170,7 +170,7 @@ Teleking has several commands that are only usable at certain ranks.
 | [#!/]webshot [url] |  | Y | Y |
 | [#!/]version | show bot version | Y | Y |
 | [#!/]reqgp | send Request to admin for create group | Y | Y |
-| [#!/]black | show bot info | Y | Y |
+| [#!/]teleking | show bot info | Y | Y |
 | [#!/]res [username] | Returns users name and id by username. | Y | Y |
 | [#!/]log | Returns group logs.***In SuperGroups:*** Search for kick reasons using [#RTL<html>&#124;</html>#spam<html>&#124;</html>#lockmember] | Y | Y |
 
@@ -308,8 +308,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/holyscroll/Teleking_Team.git
-cd Teleking_Team
+git clone https://github.com/holyscroll/Teleking-Team.git
+cd Teleking-Team
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -318,7 +318,7 @@ chmod +x launch.sh
 To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
 ```sh
 #https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev autoconf -y --force-yes && git clone https://github.com/holyscroll/Teleking_Team.git && cd Teleking_Team && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev autoconf -y --force-yes && git clone https://github.com/holyscroll/Teleking-Team.git && cd Teleking_Team && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
