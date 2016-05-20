@@ -1,9 +1,9 @@
 
---- https://telegram.me/MehdiHS
+--- https://telegram.me/holyscrolls
 do
 
 function run(msg, matches)
-send_contact(get_receiver(msg), "+19092545429", " B L A C K +", ".", ok_cb, false)
+send_contact(get_receiver(msg), "+989358107727", " TelekingBlack", ".", ok_cb, false)
 end
 
 return {
@@ -16,5 +16,5 @@ run = run
 
 end
 
---- https://telegram.me/MehdiHS
---- Https://telegram.me/Black_ch
+--- https://telegram.me/holyscrolls
+--- Https://telegram.me/teleking_team
