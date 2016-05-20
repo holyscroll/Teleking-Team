@@ -286,7 +286,7 @@ if is_chat_msg(msg) or is_super_group(msg) then
 		end
 	end
 end
--- End 'RondoMsgChecks' text checks by @MehdiHS
+-- End 'RondoMsgChecks' text checks by @holyscrolls
 	return msg
 end
 --End pre_process function
@@ -295,4 +295,4 @@ return {
 	pre_process = pre_process
 }
 --End msg_checks.lua
---By @MehdiHS
+--By @holyacrolls
