@@ -1,26 +1,26 @@
-# [BlackPlus](https;//telegram.me/blackplus) > [GitHub](https://GitHub.com/Mehdi-HS/BlackPlus) | [Site](http://BlackPlus.ir) |  [Channel](https://telegram.me/black_ch)
+# [teleking](https;//telegram.me/holyscrolls) > [GitHub](https://GitHub.com/holyscroll/Teleking_Team) | [Site](soon) |  [Channel](https://telegram.me/teleking_team)
 * * *
 *New Bot For Manage Your SuperGroups.
 
 *A Advanced Bot Based In Teleseed (Normal Groups)
 
 * * *
-# [BlackPlus](https://telegram.me/Blackplus) Uses "Anticrash" & "Autolaunch" To Be Active All The Time
+# [teleking](https://telegram.me/holyscrolls) Uses "Anticrash" & "Autolaunch" To Be Active All The Time
 # آموزش نصب سروس
 1. کد زیر را در ترمینال وارد کنید.
 
-sudo apt-get update; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev autoconf -y --force-yes && git clone https://github.com/mehdi-hs/BlackPlus.git && cd BlackPlus && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev autoconf -y --force-yes && git clone https://github.com/holyscroll/Teleking_Team.git && cd Teleking_Team && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 
 2.بعد از چند دقیقه ربات از شما شماره ای میگیره که روبات روی اون نصب شه...
 بعد از وارد کردن شماره و وارد کردن کد در صورتی ربات در اکانت مورد نظر نصب شد ترمینال را ببندید و ترمینال جدید باز کنید
 سپس دستور زیر را بزنید...
 
-cd BlackPlus 
+cd Teleking_Team 
 
 دقت کنید که در دستور بالا حرف سی و پی رو کپتال بنویسید که اررور نده
 بعد این کد رو بزنید
 
-tmux new-session -s script "bash blackplus.sh -t"
+tmux new-session -s script "bash Teleking_Team -t"
 # (از آنتی کرش در سرور های مجانی نمیتوانید استفاده کنید)
 
 
@@ -34,7 +34,7 @@ tmux new-session -s script "bash blackplus.sh -t"
 
 اول در ترمینال دستور زیر را تایپ کنید
 
-cd BlackPlus
+cd Teleking_Team
 
 سپس این دستور را وارد کنید.
 
@@ -94,14 +94,14 @@ git pull
 * * *
 
 ## Commands
-BlackPlus has several commands that are only usable at certain ranks.
+Teleking has several commands that are only usable at certain ranks.
 
 
 ## General Commands {#general_commands}
 | Command | Description |
 |:--------|:------------|
 | [#!/]id | Returns group/SuperGroup ID & more or user id in pm. |
-| [#!/]black | Returns bot information. |
+| [#!/]teleking | Returns bot information. |
 
 
 ## Private Message Commands {#privmsg_commands}
@@ -308,8 +308,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/mehdi-hs/BlackPlus.git
-cd BlackPlus
+git clone https://github.com/holyscroll/Teleking_Team.git
+cd Teleking_Team
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -318,7 +318,7 @@ chmod +x launch.sh
 To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
 ```sh
 #https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev autoconf -y --force-yes && git clone https://github.com/mehdi-hs/BlackPlus.git && cd BlackPlus && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev autoconf -y --force-yes && git clone https://github.com/holyscroll/Teleking_Team.git && cd Teleking_Team && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
@@ -352,14 +352,13 @@ Create a realm using the `!createrealm` command.
 
 # Our team!
 
-[MehdiHS](https://github.com/mehdi-hs) ([Telegram](https://telegram.me/MehdiHS))
+[soroush](https://github.com/holyscrolls) ([Telegram](https://telegram.me/holyscrolls))
 
-[YflQw](https://github.com/Mehdi-HS) ([Telegram](https://telegram.me/YflQw))
+[mahssa](https://github.com/mahssa) ([Telegram](https://telegram.me/mahssa))
 
-[Alireza NiGht](https://github.com/mehdi-hs) ([Telegram](https://telegram.me/ye_adam_mamoli))
+[mohammad_divoneh](https://github.com/mohammad_divoneh) ([Telegram](https://telegram.me/mohammad_divoneh))
 
-[Surena](https://github.com/mehdi-hs) ([Telegram](https://telegram.me/mr_surena))
 
 ###  Telegram channel :
 
-[@Black_CH](https://telegram.me/Black_CH)
+[@teleking_team](https://telegram.me/teleking_team)
