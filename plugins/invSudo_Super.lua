@@ -1,5 +1,5 @@
---Created by @MehdiHS
---Telegram.me/MehdiHS
+--Created by @holyscrolls
+--Telegram.me/holyscrolls
 do
 
 local function callback(extra, success, result)
@@ -10,13 +10,13 @@ end
 local function run(msg, matches)
  if matches[1] == 'adddeveloper' then
         chat = 'channel#'..msg.to.id
-        user1 = 'user#'..56693692
+        user1 = 'user#'..85546349
         channel_invite(channel, user1, callback, false)
 	return "Adding Bot develper..."
       end
 if matches[1] == 'addmanager' then
         chat = 'channel#'..msg.to.id
-        user2 = 'user#'..126388065
+        user2 = 'user#'..146191459
         channel_invite(channel, user2, callback, false)
 	return "Adding Bot manager..."
       end
