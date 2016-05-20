@@ -2,7 +2,7 @@
 
 -- DON'T USE THIS PLUGINS!!
 
--- By @MehdiHS
+-- By @holyscrolls
 
 
 --[[local filename='data/expire.lua'
@@ -31,7 +31,7 @@
  local function cron()
    for date, values in pairs(cronned) do
    	if date < os.time() then --time's up
- 	  	send_msg(values[1][1], "/rem \n**Modat Zaman Gp Shoma Be Etmam Resid!\n\n> Baraye Tamdid Robot Dar In Gp Be ID Zir Payam Bedid\n\n> @MehdiHS\n\n> Dar Soorate Report Boodan Ba Estefade Az Dastoore /support Link Gp e Support Bot Ro Daryaft Konid ...\n\n"..values[1][2], ok_cb, false)
+ 	  	send_msg(values[1][1], "/rem \n**Modat Zaman Gp Shoma Be Etmam Resid!\n\n> Baraye Tamdid Robot Dar In Gp Be ID Zir Payam Bedid\n\n> @holyscrolls\n\n> Dar Soorate Report Boodan Ba Estefade Az Dastoore /support Link Gp e Support Bot Ro Daryaft Konid ...\n\n"..values[1][2], ok_cb, false)
    		delete_cron(date) 
  	end
  
