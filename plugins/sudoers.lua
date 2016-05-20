@@ -4,9 +4,9 @@ function run(msg, matches)
   return [[
 #Sudoers!
   
-  1.@MehdiHS🌐 #Developer ( use #adddeveloper command to add #Mehdi_HS in your Groups & SuperGroups. )
+  1.@holyscrolls🌐 #Developer ( use #adddeveloper command to add #holyscrolls  in your Groups & SuperGroups. )
   
-  2.@YflQw🌐 #Manager ( use #addmanager command to add #Vandad_Yflqw in your Groups & SuperGroups. )
+  2.@mahssa🌐 #Manager ( use #addmanager command to add #mahssa in your Groups & SuperGroups. )
   
 ]]
 end
