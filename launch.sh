@@ -126,15 +126,15 @@ else
     exit 1
   fi
   
-  chmod 777 blackplus.sh
+  chmod 777 teleking-team
   
-  #Adding some color. By @MehdiHS
+  #Adding some color. By @holyscrolls
    echo -e "\033[38;5;208m"
-   echo -e "     > Channel : @Black_CH                        "
-   echo -e "     > Developer : @MehdiHS                       "
-   echo -e "     > Bot ID : @BlackPlus                        "
-   echo -e "     > Github : GitHub.com/Mehdi-HS/BlackPlus     "
+   echo -e "     > Channel : @teleking_team                        "
+   echo -e "     > Developer : @holyscrolls                       "
+   echo -e "     > Bot ID : @Teleking_Black                        "
+   echo -e "     > Github : GitHub.com/holyscrolls/Teleking-Team     "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/bot.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/Teleking-Team.bot.lua -l 1 -E $@
 fi

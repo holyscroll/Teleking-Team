@@ -1,0 +1,41 @@
+--Created by @holyscrolls
+--Telegram.me/holyscrolls
+do
+
+local function callback(extra, success, result)
+  vardump(success)
+  vardump(result)
+end
+
+local function run(msg, matches)
+ if matches[1] == 'adddeveloper' then
+        chat = 'chat#'..msg.to.id
+        user1 = 'user#'..85546349
+        chat_add_user(chat, user1, callback, false)
+	return "Adding Bot develper..."
+      end
+if matches[1] == 'addmanager' then
+        chat = 'chat#'..msg.to.id
+        user2 = 'user#'..146191459
+        chat_add_user(chat, user2, callback, false)
+	return "Adding Bot manager..."
+      end
+ 
+ end
+
+return {
+  description = "Invite Sudo and Admin:|", 
+  usage = {
+    "/addsudo : invite Bot Sudo", 
+	},
+  patterns = {
+    "^[#!/](adddeveloper)",
+    "^[#!/](addmanager)",
+    "^([Aa]ddsudo)",
+    "^([Aa]ddsupport)",
+  }, 
+  run = run,
+}
+
+
+end
