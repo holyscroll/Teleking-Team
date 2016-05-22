@@ -21,7 +21,7 @@ do local _ = {
     "antiRejoin",
     "pmLoad",
     "inSudo",
-    "Telekingblack",
+    "blackTeleking",
     "toSticker(Text_to_stick)",
     "toPhoto_By_Reply",
     "inPm",
