@@ -90,9 +90,9 @@ if to == 'user' or service or is_admin1(msg) and to == "chat" or to == "channel"
 	end
     if matches[1] == 'join' then
 	local data = load_data(_config.moderation.data)
-	if matches[2]:lower() == 'blackplus' and matches[3]:lower() == 'support' then
-		savelog(msg.to.id, name_log.." ["..msg.from.id.."] tried to join blackplus support")
-		local target = 1031459611
+	if matches[2]:lower() == 'teleking' and matches[3]:lower() == 'support' then
+		savelog(msg.to.id, name_log.." ["..msg.from.id.."] tried to join teleking support")
+		local target = 
 		local long_id = data[tostring(target)]['long_id']
 		if is_banned(msg.from.id, tostring(target)) then
 			return 'You are banned.'
@@ -111,9 +111,9 @@ if to == 'user' or service or is_admin1(msg) and to == "chat" or to == "channel"
 		local user = msg.from.peer_id
 		chat_add_user(chat, user, ok_cb, false)
 		channel_invite(channel, user, ok_cb, false)
-	elseif matches[2]:lower() == 'persian' and matches[3]:lower() == 'support' then
-		savelog(msg.to.id, name_log.." ["..msg.from.id.."] tried to join Persian support")
-		local target = 133538895
+	elseif matches[2]:lower() == 'teleking' and matches[3]:lower() == 'support' then
+		savelog(msg.to.id, name_log.." ["..msg.from.id.."] tried to join teleking support")
+		local target = 
 		local long_id = data[tostring(target)]['long_id']
 		if is_banned(msg.from.id, tostring(target)) then
 			return 'You are banned.'
