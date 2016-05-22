@@ -91,10 +91,10 @@ local function bot_stats()
   return text
 end
 local function run(msg, matches)
-  if matches[1]:lower() == 'black' then -- Put everything you like :)
+  if matches[1]:lower() == 'teleking' then -- Put everything you like :)
     local about = _config.about_text
     local name = user_print_name(msg.from)
-    savelog(msg.to.id, name.." ["..msg.from.id.."] used /black ")
+    savelog(msg.to.id, name.." ["..msg.from.id.."] used /teleking ")
     return about
   end 
   if matches[1]:lower() == "statslist" then
