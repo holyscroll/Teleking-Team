@@ -17,7 +17,7 @@ sudo apt-get update; sudo apt-get install libreadline-dev libconfig-dev libssl-d
 
 cd Teleking-Team 
 
-دقت کنید که در دستور بالا حرف سی و پی رو کپتال بنویسید که اررور نده
+دقت کنید که در دستور بالا حرف  تی رو کپتال بنویسید که اررور نده
 بعد این کد رو بزنید
 
 tmux new-session -s script "bash Teleking_Team -t"
